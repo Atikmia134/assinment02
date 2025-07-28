@@ -210,7 +210,30 @@
     
 } 
 
-        
+
+/* boom */
+.boom{
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-bottom: -72px;
+}
+.boom img{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 500px;
+    width: 286px;
+    height: 286px;
+}
+/* boom responsive */
+
+@media screen and (max-width:576px) {
+    .boom{
+        display: none;
+    }
+    }
+    
 /* flower store */
 
 .container-flower{
