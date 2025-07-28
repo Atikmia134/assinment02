@@ -439,3 +439,160 @@
   } 
 }  
 
+
+
+.container-Bunch{
+    display: grid;
+    background-image:url(image/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 533px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.cb{
+    display: flex;
+}
+.Subscribe{
+    display: flex;
+    text-align: center;
+    width: 830px;
+    height: 141px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.input{
+    display: flex;
+    width: 645px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.btn-primary{
+    padding: 07px;
+    font-size: 1rem;
+    background-color:#E95A08;
+    width:250px;
+    height: 50px;
+    border: none;
+    color: #F5F8FF;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+/*bunch responsive*/
+
+@media screen and (max-width: 576px) {
+  .container-Bunch {
+    justify-content: center;
+    align-items: center;
+    
+  }
+ 
+.Subscribe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .h2 {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 390px;
+    height: 100px;
+  }
+  .input {
+    width: 218px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn-primary {
+    width: 2180px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  } 
+}  
+
+
+/* footer */
+
+.display-flex{
+    display: flex;
+     }
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px;
+
+}
+
+.footer-logo img{
+     width: 135px;
+     height: 82px;
+}
+.footer-logo p{
+    max-width: 200px;
+    font-size: 1rem;
+}
+.footer-menu ,.footer-menu2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ .footer-menu ul ,.footer-menu2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu a ,.footer-menu2 a{
+    text-decoration: none;
+    gap: 32px;
+    color: #000000;
+}
+
+.footer-menu li ,.footer-menu2 li{
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    align-items: center;
+    gap: 25px;
+}
+.footer-icon img {
+    width: 30px;
+    height: 30px;
+}
+/* footer responsive */
+@media screen and (max-width:576px){
+    .container-footer{
+        display: grid;
+        padding: 20px;
+    }
+     .footer-menu li ,.footer-menu2 li{
+        color: #000000;
+        padding: 10px;
+     }
+}
+
+
+
