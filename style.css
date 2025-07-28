@@ -233,7 +233,7 @@
         display: none;
     }
     }
-    
+
 /* flower store */
 
 .container-flower{
@@ -307,3 +307,34 @@
   }
 }
 
+
+/* deals */
+    
+.container-deals{
+    text-align: center;
+    justify-content: center;
+}
+.deals-text{
+    text-align: center;
+}
+.container-deals h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-deals h3 span{
+    color: #E95A08;
+}
+.container-deals p{
+    text-align: center;
+    font-size: 1rem;
+    color: #000000;
+}
+
+@media screen and (max-width:576px) {
+    .container-deals{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    
+}
